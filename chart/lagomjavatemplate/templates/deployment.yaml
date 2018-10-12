@@ -20,11 +20,11 @@ spec:
         - containerPort: {{ .Values.service.servicePort }}
         livenessProbe:
           httpGet:
-            path: /api/hello/world/
+            path: /api/hello/world
             port: {{ .Values.service.servicePort }}
         readinessProbe:
           httpGet:
-            path: /api/hello/world/
+            path: /api/hello/world
             port: {{ .Values.service.servicePort }}
         resources:
         env:
