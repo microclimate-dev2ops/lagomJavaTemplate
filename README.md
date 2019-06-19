@@ -1,1 +1,1 @@
-Template files for Microclimate Java Lagom with Maven
+Template for Java Lagom microservice with Maven
