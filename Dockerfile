@@ -2,7 +2,7 @@ FROM maven:3.5.4-jdk-8-alpine AS builder
 COPY pom.xml .
 COPY hello-api hello-api/
 COPY hello-impl hello-impl/
-RUN mvn install
+RUN mvn install -DskipTests
 
 FROM fabric8/java-alpine-openjdk8-jre
 RUN apk add --no-cache nss
