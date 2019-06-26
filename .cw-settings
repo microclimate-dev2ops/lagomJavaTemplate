@@ -1,6 +1,6 @@
 {
   "contextRoot": "/api/hello/you",
-  "internalPort": "",
+  "internalPort": "9000",
   "healthCheck": "",
   "watchedFiles": {
     "includeFiles": [
